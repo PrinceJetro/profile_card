@@ -1,0 +1,48 @@
+body{
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/bg-pattern-bottom.svg");
+}
+
+
+
+.card{
+background-image: url("images/bg-pattern-top.svg");
+background-position:top;
+background-color:white;
+background-size: 400% 30%;
+background-repeat: no-repeat;
+height: 400px;
+width:300px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+}
+.card img{
+    border-radius: 50%;
+    width:100px;
+    height: auto;    
+}
+
+.main #age, .main #country{
+    font-weight: 50;
+}
+
+#london{
+    text-align: center;
+}
+
+#last{
+  display: grid;
+  grid-template-columns: 40% 35% 25%;
+  width: 100%
+}
+
+#last p{
+    font-size: 12px;
+}
